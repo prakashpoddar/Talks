@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Login"
+    android:background="@drawable/gradient">
+
+
+    <Button
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+       android:layout_marginTop="53dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginBottom="80dp"
+        android:text="Talks"
+        android:textSize="30sp"
+        android:layout_height="200dp"
+        android:textColor="#92C7F1"
+        android:background="@drawable/logo_shape"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/emaillgn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/shape"
+        android:hint="Enter Your Email"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/emaillgn"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:padding="10dp"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnshape"
+        android:text="Login"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/signupbtn1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape"
+        android:text="Sign Up"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

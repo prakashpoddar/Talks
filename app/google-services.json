@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1071705949999",
+    "firebase_url": "https://talks-2b2a0-default-rtdb.firebaseio.com",
+    "project_id": "talks-2b2a0",
+    "storage_bucket": "talks-2b2a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071705949999:android:d11e50cbf4f65d9354c3da",
+        "android_client_info": {
+          "package_name": "com.poddar.talks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071705949999-6kdf1oud6dot2ojkml8hlfvfai2qeod3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpA9rXXby-kG5jqcfrYR0ljLRRM4ESOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071705949999-6kdf1oud6dot2ojkml8hlfvfai2qeod3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

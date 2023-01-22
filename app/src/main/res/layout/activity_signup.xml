@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="200dp"
+        android:textColor="#92C7F1"
+        android:background="@drawable/ic_baseline_person_24" />
+    <EditText
+        android:id="@+id/signupemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/shape"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupemail"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:hint="Enter Your Password"
+        android:maxLength="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnshape"
+        android:text="Sign Up"
+        android:textSize="20sp" />
+</RelativeLayout>
